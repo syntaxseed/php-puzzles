@@ -1,6 +1,6 @@
 # PHP Puzzles
 
-A monthly column originally published for (PHP Architect Magazine)[https://www.phparch.com/community/sherri-wheeler/]. Each month I present a new coding challenge, and I offer a couple solutions the following month.
+A monthly column originally published for [PHP Architect Magazine](https://www.phparch.com/community/sherri-wheeler/). Each month I present a new coding challenge, and I offer a couple solutions the following month.
 
 This repo contains monthly solution code.
 
