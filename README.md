@@ -6,7 +6,7 @@ This repo contains monthly solution code.
 
 **No Peeking!**
 
-Try to to peek ahead at months you haven't read or solved yet!
+Try not to peek ahead at months you haven't read or solved yet!
 
 **Author**
 
