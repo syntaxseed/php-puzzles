@@ -8,6 +8,8 @@ This repo contains monthly solution code.
 
 Try not to peek ahead at months you haven't read or solved yet!
 
+Join us on the PHP Arch Discord to discuss solutions. :)
+
 **Author**
 
 Sherri Wheeler
