@@ -12,23 +12,23 @@ class Maze{
     public int $height;
     public array $grid;
 
-    const LIGHT = '░';
-    const DARK = '▓';
+    const LIGHT = '░';  // 0
+    const DARK = '▓';   // 1
 
     /**
      * Initialize the grid with a given width and height and an intial fill value.
      * Pass zero for height and width to get a random size.
      */
-    public function __construct(int $width=0, int $height=0, string $initialFill=self::DARK){
+    public function __construct(int $width=0, int $height=0, int $initialFill=1){
         $this->width = ($width == 0) ? random_int(10, 50) : $width;
         $this->height = ($height == 0) ? random_int(10, 50) : $height;
         $this->fillUniform($initialFill);
     }
 
     /**
-     * Fill the grid with a single initial value.
+     * Fill the grid with a single initial integer value.
      */
-    public function fillUniform(string $fill=self::DARK) : void {
+    public function fillUniform(int $fill = 1) : void {
         $this->grid = array_fill(0, $this->height, array_fill(0, $this->width, $fill));
     }
 
